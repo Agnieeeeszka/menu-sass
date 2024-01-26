@@ -1,0 +1,23 @@
+*
+    margin: 0
+    padding: 0
+
+    nav
+        ul
+            +box-flex(row, space-around)
+            list-style: none
+
+            li
+                width: 20%
+
+                a
+                    color: $color-font
+                    display: block //zmienil rozmiar czerwonego obszaru bo zmienil sie z liniowego na blokowy
+                    font-family: arial
+                    line-height: 35px
+                    background-color: red
+                    text-decoration: none
+                    text-align: center
+                    text-transform: uppercase
+                    &:hover
+                        background-color: black
